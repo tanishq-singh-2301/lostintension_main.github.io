@@ -46,7 +46,15 @@ html {
     justify-content:center;
 }
 
-@media only screen and (min-width: 767px) {
+.container-main{
+    background-image: url(./images/pexels-jakub-novacek-924824.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* @media only screen and (min-width: 767px) {
     body {
         background-image: url(./images/pexels-jakub-novacek-924824.jpg);
         background-position: top left;
@@ -66,7 +74,7 @@ html {
         background-size: cover;
         background-color:#ffffff;
     }
-}
+} */
 
 .main-div{
     display: flex;
