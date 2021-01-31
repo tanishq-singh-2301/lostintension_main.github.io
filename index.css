@@ -59,7 +59,7 @@ body {
     body {
         background-image: url(./images/pexels-jakub-novacek-924824.jpg);
         background-position: top left;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-attachment: fixed;
         background-size: cover;
         background-color:#ffffff;
