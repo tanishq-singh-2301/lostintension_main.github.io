@@ -58,6 +58,11 @@ body {
 @media only screen and (max-width: 767px) {
     body {
         background-image: url(./images/pexels-jakub-novacek-924824-small.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color:#ffffff;
     }
 }
 
