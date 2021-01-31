@@ -46,15 +46,27 @@ html {
     justify-content:center;
 }
 
-body {
-    background-image: url(./images/pexels-jakub-novacek-924824.jpg);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color:#ffffff;
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(./images/pexels-jakub-novacek-924824.jpg);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color:#ffffff;
+    }
 }
 
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(./images/pexels-jakub-novacek-924824-small.jpg);
+        background-position: top left;
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color:#ffffff;
+    }
+}
 
 .main-div{
     display: flex;
