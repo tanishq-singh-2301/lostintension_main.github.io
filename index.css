@@ -44,38 +44,17 @@ html {
     display: flex;
     align-items: center;
     justify-content:center;
+    background-color: rgba(255,255,255,0.05);
 }
 
 .container-main{
     background-image: url(./images/pexels-jakub-novacek-924824.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment:scroll;
+    background-attachment:fixed;
     background-size: cover;
     height:100%;
 }
-
-/* @media only screen and (min-width: 767px) {
-    body {
-        background-image: url(./images/pexels-jakub-novacek-924824.jpg);
-        background-position: top left;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-color:#ffffff;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    body {
-        background-image: url(./images/pexels-jakub-novacek-924824-small.jpg);
-        background-position: top left;
-        background-repeat: repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        background-color:#ffffff;
-    }
-} */
 
 .main-div{
     display: flex;
