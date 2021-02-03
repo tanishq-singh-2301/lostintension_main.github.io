@@ -229,6 +229,7 @@ a{
 }
 
 .main-container a:hover{
-    transform:scale(1.02);
-    color: rgb(88, 31, 31);
+    transform:scale(1.015);
+    color: rgb(141, 57, 57);
+    border-bottom: 1px solid rgb(141, 57, 57);
 }
