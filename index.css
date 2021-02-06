@@ -362,10 +362,6 @@ a{
     transform: scale(0.8);
 }
 
-#extra-planning{
-    height: 50px;
-}
-
 .calender-content-planning{
     font-size:30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -382,6 +378,9 @@ a{
     margin-bottom: 10px;
 }
 
+.extra-planning{
+    justify-content:flex-start;
+}
 
 .calender-content-kt{
     font-size:25px;
