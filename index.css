@@ -388,7 +388,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+    font-weight:500;
 }
 
 .calender-content-kt{
