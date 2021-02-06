@@ -316,18 +316,19 @@ a{
     align-content: center;
     flex-direction: column;
     background-color: #ffcdcd;
+    border: 1.5px solid #F96A87;
 }
 
 .calender-image-div{
     display: flex;
     align-items: center;
     background-color: #ffcdcd;
-    height: 700px;
     justify-content:flex-start;
 }
 
 .much-bigger{
-    height: 700px;
+    height: 800px;
+    justify-content: center;
 }
 
 .inside-calender-image-div{
@@ -357,7 +358,8 @@ a{
 }
 
 .content-div-smaller-screen{
-    margin-right: 75px!important;
+    margin-left: -90px;
+    transform: scale(0.8);
 }
 
 .calender-content-planning{
@@ -375,6 +377,10 @@ a{
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+}
+
+.extra-planning{
+    height:110%;
 }
 
 .calender-content-kt{
@@ -400,6 +406,14 @@ a{
     color: rgb(95, 95, 95);
 }
 
+.calender-text-gap{
+    margin-bottom: 10px;
+}
+
+.increasing-width{
+    width:200%;
+}
+
 .calender-content-more{
     margin-top: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -415,4 +429,110 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.w3-white-our-own{
+    background-color:#ffcdcd;
+}
+
+.main-feedback-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#ffcdcd;
+    height: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    border: 1.5px solid #F96A87;
+}
+
+.feedback-feedback{
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:72%;
+    border: 2px solid #F96A87;
+    background-color:#F96A87;
+    color:white;
+    border-top-right-radius: 9px ;
+    border-bottom-left-radius: 9px ;
+    border-bottom-right-radius: 9px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.feedback-for-smaller-screen{
+    flex-direction: column;
+    height: 1200px;
+}
+
+.feedback-text{
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 410px;
+    width: auto;
+    margin-left:30px;
+}
+
+.feedback-feedback-text{
+    font-size: 30px;
+}
+
+.feedback-text-smaller-screen{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.feedback-container-1{
+    border: 3px solid #fbff88;
+    border-radius: 15px;
+    background-color:#FDFFB8;
+    padding:15px;
+    width:200px;
+    height:auto;
+}
+
+.feedback-container-2{
+    border: 3px solid #9cf8ff;
+    border-radius: 15px;
+    background-color:#D5FCFF;
+    padding:15px;
+    width:200px;
+    height:auto;
+}
+
+.feedback-container-3{
+    border: 3px solid #ffcbab;
+    border-radius: 15px;
+    background-color:#ffe0cd;
+    padding:15px;
+    width:200px;
+    height:auto;
+}
+
+.feedback-feedback-1{
+    height:400px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.feedback-feedback-2{
+    align-items: flex-start;
+}
+
+.feedback-feedback-3{
+    margin-top:50px;
+    align-items: center;
+}
+
+.feedback-feedback-smaller-screen-container{
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.ff-3{
+    margin-top: 0px;
 }
