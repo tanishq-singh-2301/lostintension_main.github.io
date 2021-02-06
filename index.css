@@ -307,3 +307,112 @@ html {
 a{
     text-decoration: none;
 }
+
+.calender-div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #ffcdcd;
+}
+
+.calender-image-div{
+    display: flex;
+    align-items: center;
+    background-color: #ffcdcd;
+    height: 700px;
+    justify-content:flex-start;
+}
+
+.much-bigger{
+    height: 700px;
+}
+
+.inside-calender-image-div{
+    background-color: #ffcdcd;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #ffcdcd;
+    width: 84%;
+    height: 535px;
+    justify-content:space-around;
+}
+
+.for-smaller-screen{
+    flex-direction: column;
+    margin-left: 0px;
+    justify-content:center;
+}
+
+.calender-content-div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width:auto;
+    margin-right: 40px;
+}
+
+.content-div-smaller-screen{
+    margin-right: 75px!important;
+}
+
+.calender-content-planning{
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:100%;
+    width:90%;
+    border: 2px solid #F96A87;
+    background-color:#F96A87;
+    color:white;
+    border-top-right-radius: 9px ;
+    border-bottom-left-radius: 9px ;
+    border-bottom-right-radius: 9px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.calender-content-kt{
+    font-size:25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #F96A87;
+    margin-bottom: 10px;
+}
+
+.calender-content-dates{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 180%;
+    height:100%;
+    border: 2px solid #F96A87;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.calender-content-dates-date{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(95, 95, 95);
+}
+
+.calender-content-more{
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:100%;
+    width:120%;
+    border: 2px solid #5F5276;
+    background-color:#5F5276;
+    color:white;
+    border-top-right-radius: 9px ;
+    border-bottom-left-radius: 9px ;
+    border-bottom-right-radius: 9px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
