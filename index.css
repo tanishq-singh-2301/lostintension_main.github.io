@@ -382,16 +382,13 @@ a{
     font-size:30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width:90%;
-    border: 2px solid #F96A87;
+    border: 2px solid #ffffff00;
     background-color:#F96A87;
     color:white;
-    border-top-right-radius: 9px ;
-    border-bottom-left-radius: 9px ;
-    border-bottom-right-radius: 9px ;
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
+    justify-content: flex-start;
+    margin-bottom: 20px;
 }
 
 .calender-content-kt{
@@ -461,7 +458,7 @@ a{
 .feedback-feedback{
     font-size:30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width:72%;
+    width:90%;
     border: 2px solid #F96A87;
     background-color:#F96A87;
     color:white;
@@ -483,9 +480,10 @@ a{
     display:flex;
     align-items: flex-start;
     flex-direction: column;
+    margin-top: 10px;
     height: 410px;
     width: auto;
-    margin-left:30px;
+    width:163px;
 }
 
 .feedback-feedback-text{
