@@ -362,6 +362,15 @@ a{
     transform: scale(0.8);
 }
 
+.content-div-smaller-screen-make-small{
+    margin-left: -15px;
+    transform: scale(0.9);
+}
+
+#extra-planning{
+    height: 50px;
+}
+
 .calender-content-planning{
     font-size:30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -390,7 +399,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 180%;
+    width: 176%;
     height:100%;
     border: 2px solid #F96A87;
     border-radius: 7px;
