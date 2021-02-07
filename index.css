@@ -448,12 +448,15 @@ a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color:#ffcdcd;
-    height: 500px;
+    /* background-color:#ffcdcd;
+    height: 520px;
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 5px;
-    border: 1.5px solid #F96A87;
+    border: 1.5px solid #F96A87; */
+    height: 520px;
+    background-color: white;
+    margin: 25px;
 }
 
 .feedback-feedback{
@@ -474,7 +477,7 @@ a{
 
 .feedback-for-smaller-screen{
     flex-direction: column;
-    height: 1200px;
+    height: 1500px;
 }
 
 .feedback-text{
@@ -483,17 +486,24 @@ a{
     flex-direction: column;
     margin-top: 10px;
     height: 410px;
-    width: auto;
     width:163px;
+}
+
+.feedback-text-smaller-screen{
+    width:auto;
 }
 
 .feedback-feedback-text{
     font-size: 30px;
 }
 
-.feedback-text-smaller-screen{
-    margin-top: 40px;
-    margin-bottom: 30px;
+.feedback-feedback-text-smaller-screen{
+    font-size: 47px;
+}
+
+.extra-planning{
+    font-size:37px;
+    width: 190px;
 }
 
 .feedback-container-1{
@@ -539,10 +549,70 @@ a{
 }
 
 .feedback-feedback-smaller-screen-container{
+    transform: scale(1.4);
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 120px;
 }
 
-.ff-3{
-    margin-top: 0px;
+.we-need-color{
+    background-color:#ffdba2;
+    border: 1.5px solid #ffb53e; 
+}
+
+.we-need-color-again{
+    background-color:#bff2ff6e;
+    border: 1.5px solid #87e7ff; 
+}
+
+.we-need-color-again-again{
+    background-color:#ffc46c70;
+    border: 1.5px solid #ffac2fa6; 
+}
+
+.contact-section{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+.contact-smaller-screen{
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+
+.contact-text-smaller-screen{
+    margin-top: 60px;
+    margin-bottom:35px;
+}
+
+.contact-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-direction:column;
+    border:2px solid #FFC15D;
+    border-radius: 6px;
+    background-color: #ffcc7b;
+    height:200px;
+    width:200px;
+}
+
+.contact-email{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    border:1px solid transparent;
+    border-radius: 3px;
+    background-color: #ffb948;
+    height:40px;
+    width:100px;
+}
+
+.contact-email:hover{
+    box-shadow: -5px -5px 5px 0 #ffc76c,
+    5px 5px 5px 0 #ffc76c;
+    border:2px solid #ffb948;
+
 }
