@@ -1,0 +1,110 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:white;
+    font-family: 'Patrick Hand SC', cursive;
+}
+
+.main-div{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.colorField{
+    background-color:rgb(47, 194, 157);
+    color:rgb(251, 255, 253);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    min-width: 50%;
+    height: 648px;
+    font-size:45px;
+}
+
+.inputField{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    color:rgb(32, 32, 32);
+    width:100%;
+    height: 648px;
+    border:6px solid rgb(47, 194, 157);
+}
+
+.inputField h2{
+   padding-bottom: 70px;
+   font-size:30px;
+}
+
+input{
+    background-color:transparent;
+    width:60%;
+    margin-bottom: 25px;
+    border:none;
+    border-bottom: 1.5px solid rgb(185, 185, 185);
+    height:35px;
+}
+
+input:focus, button:focus{
+    outline:none;
+}
+
+button{
+    margin-top: 50px;
+    border:none;
+    background-color:transparent;
+    width: 60%;
+    height:37px;
+    border:1.5px solid rgb(29, 29, 29);
+    font-size:120%;
+    font-weight: 500;
+    color:rgb(29, 29, 29);
+}
+
+button:hover{
+    animation: fillColorInButton 0.2s ease-in-out ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fillColorInButton {
+    100%{ 
+        background-color: rgb(29, 29, 29);
+        color:whitesmoke; 
+    }
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
